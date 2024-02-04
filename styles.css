@@ -1,19 +1,21 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #a2d2ff;
-    color: #ffffff;
+    /* background: linear-gradient(#a2d2ff, #EFB0C9);*/
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 h1, h2, h3, h4, p {
     text-shadow: 0px 0px 1px black; 
 }
 
 #bff-img {
-    width: 150px;
+    width: 300px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
 }
@@ -81,4 +83,15 @@ h1, h2, h3, h4, p {
 
 #gift-img-cheers:hover {
     background-image: url("./images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    text-shadow: 0px 0px 1px black;
+}
+
+a {
+    color: white;
 }
