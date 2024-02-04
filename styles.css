@@ -2,7 +2,8 @@ body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     /* background: linear-gradient(#a2d2ff, #EFB0C9);*/
-    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    /*background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);*/
+    background: linear-gradient(#fad0c4, #ffd1ff);
     color: #000;
     display: flex;
     flex-direction: column;
